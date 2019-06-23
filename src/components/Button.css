@@ -1,0 +1,21 @@
+.submit{
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #2CA8C6;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+  transition: background 500ms, color 500ms;
+}
+.flex-r{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.submit:hover{
+  background-color: #ffffff;
+  color: #2C536C;
+}

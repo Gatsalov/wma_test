@@ -1,0 +1,41 @@
+.form-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 580px;
+  background-color: rgba(24, 33, 52, 0.6);
+  border-radius: 5px;
+}
+.authWrong{
+  -webkit-animation: shake 500ms;
+  -o-animation: shake 500ms;
+  animation: shake 500ms;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px); }
+  10% { transform: translate(-1px ); }
+  20% { transform: translate(-3px); }
+  30% { transform: translate(3px); }
+  40% { transform: translate(1px ); }
+  50% { transform: translate(-1px); }
+  60% { transform: translate(-3px); }
+  70% { transform: translate(3px); }
+  80% { transform: translate(-1px ); }
+  90% { transform: translate(1px); }
+  100% { transform: translate(1px ); }
+}
+.warning{
+  position: absolute;
+  top: 40px;
+  color: red;
+  font-size: 24px;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}
